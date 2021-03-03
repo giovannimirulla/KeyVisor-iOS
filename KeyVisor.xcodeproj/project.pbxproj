@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499455B01CDD4EE4003147FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455AF1CDD4EE4003147FD /* main.m */; };
+		499455B31CDD4EE4003147FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455B21CDD4EE4003147FD /* AppDelegate.m */; };
+		499455B61CDD4EE4003147FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455B51CDD4EE4003147FD /* ViewController.m */; };
+		499455B91CDD4EE4003147FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499455B71CDD4EE4003147FD /* Main.storyboard */; };
+		499455BB1CDD4EE4003147FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499455BA1CDD4EE4003147FD /* Assets.xcassets */; };
+		499455BE1CDD4EE4003147FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499455BC1CDD4EE4003147FD /* LaunchScreen.storyboard */; };
+		499455C91CDD4EE4003147FD /* KeyVisorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455C81CDD4EE4003147FD /* KeyVisorTests.m */; };
+		499455D41CDD4EE4003147FD /* KeyVisorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455D31CDD4EE4003147FD /* KeyVisorUITests.m */; };
+		499455E91CDD4F6D003147FD /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455E31CDD4F6D003147FD /* GCDAsyncSocket.m */; };
+		499455EA1CDD4F6D003147FD /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455E51CDD4F6D003147FD /* GCDAsyncUdpSocket.m */; };
+		499455EB1CDD4F6D003147FD /* tcpSocketChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 499455E81CDD4F6D003147FD /* tcpSocketChat.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499455C51CDD4EE4003147FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499455A31CDD4EE4003147FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499455AA1CDD4EE4003147FD;
+			remoteInfo = KeyVisor;
+		};
+		499455D01CDD4EE4003147FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499455A31CDD4EE4003147FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499455AA1CDD4EE4003147FD;
+			remoteInfo = KeyVisor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499455AB1CDD4EE4003147FD /* KeyVisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyVisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499455AF1CDD4EE4003147FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		499455B11CDD4EE4003147FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		499455B21CDD4EE4003147FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		499455B41CDD4EE4003147FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		499455B51CDD4EE4003147FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		499455B81CDD4EE4003147FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499455BA1CDD4EE4003147FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499455BD1CDD4EE4003147FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499455BF1CDD4EE4003147FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499455C41CDD4EE4003147FD /* KeyVisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyVisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499455C81CDD4EE4003147FD /* KeyVisorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyVisorTests.m; sourceTree = "<group>"; };
+		499455CA1CDD4EE4003147FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499455CF1CDD4EE4003147FD /* KeyVisorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyVisorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499455D31CDD4EE4003147FD /* KeyVisorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyVisorUITests.m; sourceTree = "<group>"; };
+		499455D51CDD4EE4003147FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499455E21CDD4F6D003147FD /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		499455E31CDD4F6D003147FD /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		499455E41CDD4F6D003147FD /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		499455E51CDD4F6D003147FD /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		499455E71CDD4F6D003147FD /* tcpSocketChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tcpSocketChat.h; sourceTree = "<group>"; };
+		499455E81CDD4F6D003147FD /* tcpSocketChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tcpSocketChat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499455A81CDD4EE4003147FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499455C11CDD4EE4003147FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499455CC1CDD4EE4003147FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499455A21CDD4EE4003147FD = {
+			isa = PBXGroup;
+			children = (
+				499455AD1CDD4EE4003147FD /* KeyVisor */,
+				499455C71CDD4EE4003147FD /* KeyVisorTests */,
+				499455D21CDD4EE4003147FD /* KeyVisorUITests */,
+				499455AC1CDD4EE4003147FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499455AC1CDD4EE4003147FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499455AB1CDD4EE4003147FD /* KeyVisor.app */,
+				499455C41CDD4EE4003147FD /* KeyVisorTests.xctest */,
+				499455CF1CDD4EE4003147FD /* KeyVisorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499455AD1CDD4EE4003147FD /* KeyVisor */ = {
+			isa = PBXGroup;
+			children = (
+				499455E11CDD4F6D003147FD /* Lib */,
+				499455E61CDD4F6D003147FD /* Model */,
+				499455B11CDD4EE4003147FD /* AppDelegate.h */,
+				499455B21CDD4EE4003147FD /* AppDelegate.m */,
+				499455B41CDD4EE4003147FD /* ViewController.h */,
+				499455B51CDD4EE4003147FD /* ViewController.m */,
+				499455B71CDD4EE4003147FD /* Main.storyboard */,
+				499455BA1CDD4EE4003147FD /* Assets.xcassets */,
+				499455BC1CDD4EE4003147FD /* LaunchScreen.storyboard */,
+				499455BF1CDD4EE4003147FD /* Info.plist */,
+				499455AE1CDD4EE4003147FD /* Supporting Files */,
+			);
+			path = KeyVisor;
+			sourceTree = "<group>";
+		};
+		499455AE1CDD4EE4003147FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				499455AF1CDD4EE4003147FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		499455C71CDD4EE4003147FD /* KeyVisorTests */ = {
+			isa = PBXGroup;
+			children = (
+				499455C81CDD4EE4003147FD /* KeyVisorTests.m */,
+				499455CA1CDD4EE4003147FD /* Info.plist */,
+			);
+			path = KeyVisorTests;
+			sourceTree = "<group>";
+		};
+		499455D21CDD4EE4003147FD /* KeyVisorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				499455D31CDD4EE4003147FD /* KeyVisorUITests.m */,
+				499455D51CDD4EE4003147FD /* Info.plist */,
+			);
+			path = KeyVisorUITests;
+			sourceTree = "<group>";
+		};
+		499455E11CDD4F6D003147FD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				499455E21CDD4F6D003147FD /* GCDAsyncSocket.h */,
+				499455E31CDD4F6D003147FD /* GCDAsyncSocket.m */,
+				499455E41CDD4F6D003147FD /* GCDAsyncUdpSocket.h */,
+				499455E51CDD4F6D003147FD /* GCDAsyncUdpSocket.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		499455E61CDD4F6D003147FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				499455E71CDD4F6D003147FD /* tcpSocketChat.h */,
+				499455E81CDD4F6D003147FD /* tcpSocketChat.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499455AA1CDD4EE4003147FD /* KeyVisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499455D81CDD4EE4003147FD /* Build configuration list for PBXNativeTarget "KeyVisor" */;
+			buildPhases = (
+				499455A71CDD4EE4003147FD /* Sources */,
+				499455A81CDD4EE4003147FD /* Frameworks */,
+				499455A91CDD4EE4003147FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyVisor;
+			productName = KeyVisor;
+			productReference = 499455AB1CDD4EE4003147FD /* KeyVisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499455C31CDD4EE4003147FD /* KeyVisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499455DB1CDD4EE4003147FD /* Build configuration list for PBXNativeTarget "KeyVisorTests" */;
+			buildPhases = (
+				499455C01CDD4EE4003147FD /* Sources */,
+				499455C11CDD4EE4003147FD /* Frameworks */,
+				499455C21CDD4EE4003147FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499455C61CDD4EE4003147FD /* PBXTargetDependency */,
+			);
+			name = KeyVisorTests;
+			productName = KeyVisorTests;
+			productReference = 499455C41CDD4EE4003147FD /* KeyVisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499455CE1CDD4EE4003147FD /* KeyVisorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499455DE1CDD4EE4003147FD /* Build configuration list for PBXNativeTarget "KeyVisorUITests" */;
+			buildPhases = (
+				499455CB1CDD4EE4003147FD /* Sources */,
+				499455CC1CDD4EE4003147FD /* Frameworks */,
+				499455CD1CDD4EE4003147FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499455D11CDD4EE4003147FD /* PBXTargetDependency */,
+			);
+			name = KeyVisorUITests;
+			productName = KeyVisorUITests;
+			productReference = 499455CF1CDD4EE4003147FD /* KeyVisorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499455A31CDD4EE4003147FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Giovanni Mirulla";
+				TargetAttributes = {
+					499455AA1CDD4EE4003147FD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					499455C31CDD4EE4003147FD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 499455AA1CDD4EE4003147FD;
+					};
+					499455CE1CDD4EE4003147FD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 499455AA1CDD4EE4003147FD;
+					};
+				};
+			};
+			buildConfigurationList = 499455A61CDD4EE4003147FD /* Build configuration list for PBXProject "KeyVisor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499455A21CDD4EE4003147FD;
+			productRefGroup = 499455AC1CDD4EE4003147FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499455AA1CDD4EE4003147FD /* KeyVisor */,
+				499455C31CDD4EE4003147FD /* KeyVisorTests */,
+				499455CE1CDD4EE4003147FD /* KeyVisorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499455A91CDD4EE4003147FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499455BE1CDD4EE4003147FD /* LaunchScreen.storyboard in Resources */,
+				499455BB1CDD4EE4003147FD /* Assets.xcassets in Resources */,
+				499455B91CDD4EE4003147FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499455C21CDD4EE4003147FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499455CD1CDD4EE4003147FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499455A71CDD4EE4003147FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499455E91CDD4F6D003147FD /* GCDAsyncSocket.m in Sources */,
+				499455EA1CDD4F6D003147FD /* GCDAsyncUdpSocket.m in Sources */,
+				499455EB1CDD4F6D003147FD /* tcpSocketChat.m in Sources */,
+				499455B61CDD4EE4003147FD /* ViewController.m in Sources */,
+				499455B31CDD4EE4003147FD /* AppDelegate.m in Sources */,
+				499455B01CDD4EE4003147FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499455C01CDD4EE4003147FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499455C91CDD4EE4003147FD /* KeyVisorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499455CB1CDD4EE4003147FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499455D41CDD4EE4003147FD /* KeyVisorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499455C61CDD4EE4003147FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499455AA1CDD4EE4003147FD /* KeyVisor */;
+			targetProxy = 499455C51CDD4EE4003147FD /* PBXContainerItemProxy */;
+		};
+		499455D11CDD4EE4003147FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499455AA1CDD4EE4003147FD /* KeyVisor */;
+			targetProxy = 499455D01CDD4EE4003147FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		499455B71CDD4EE4003147FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499455B81CDD4EE4003147FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499455BC1CDD4EE4003147FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499455BD1CDD4EE4003147FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499455D61CDD4EE4003147FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		499455D71CDD4EE4003147FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499455D91CDD4EE4003147FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyVisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannimirulla.KeyVisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		499455DA1CDD4EE4003147FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KeyVisor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannimirulla.KeyVisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		499455DC1CDD4EE4003147FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyVisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannimirulla.KeyVisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyVisor.app/KeyVisor";
+			};
+			name = Debug;
+		};
+		499455DD1CDD4EE4003147FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KeyVisorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannimirulla.KeyVisorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyVisor.app/KeyVisor";
+			};
+			name = Release;
+		};
+		499455DF1CDD4EE4003147FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyVisorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannimirulla.KeyVisorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyVisor;
+			};
+			name = Debug;
+		};
+		499455E01CDD4EE4003147FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KeyVisorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannimirulla.KeyVisorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeyVisor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499455A61CDD4EE4003147FD /* Build configuration list for PBXProject "KeyVisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499455D61CDD4EE4003147FD /* Debug */,
+				499455D71CDD4EE4003147FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499455D81CDD4EE4003147FD /* Build configuration list for PBXNativeTarget "KeyVisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499455D91CDD4EE4003147FD /* Debug */,
+				499455DA1CDD4EE4003147FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		499455DB1CDD4EE4003147FD /* Build configuration list for PBXNativeTarget "KeyVisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499455DC1CDD4EE4003147FD /* Debug */,
+				499455DD1CDD4EE4003147FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		499455DE1CDD4EE4003147FD /* Build configuration list for PBXNativeTarget "KeyVisorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499455DF1CDD4EE4003147FD /* Debug */,
+				499455E01CDD4EE4003147FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499455A31CDD4EE4003147FD /* Project object */;
+}
